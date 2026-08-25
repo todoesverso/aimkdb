@@ -21,6 +21,7 @@ Auto-generated index of documents in `db/`.
 
 ### General
 
+- [Create_Own_Programming_Language](db/create_own_programming_language.md) `[note]`
 - [Linux_Networking_Stack](db/linux_networking_stack.md) `[note]`
 
 ## Web Development
