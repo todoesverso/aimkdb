@@ -1,23 +1,9 @@
----
-
-title: "Rust Programming Language Cheat Sheet"
-category: "Programming"
-subcategory: "Languages"
-tags:
-
-* "Rust"
-* "Rust syntax"
-* "ownership"
-* "borrowing"
-* "lifetimes"
-* "traits"
-* "generics"
-* "Cargo"
-  type: "reference"
-
----
-
 # Rust Programming Language Cheat Sheet
+
+**Category:** Programming
+**Subcategory:** Languages
+**Tags:** Rust, systems programming, ownership, borrowing, lifetimes, cargo, async, macros
+**Type:** reference
 
 ## 1. Program Structure
 

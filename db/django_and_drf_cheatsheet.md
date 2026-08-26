@@ -1,25 +1,9 @@
----
-
-title: "Django and Django REST Framework Cheat Sheet"
-category: "Web Development"
-subcategory: "Python / Django / REST APIs"
-tags:
-
-* Django
-* Django REST Framework
-* DRF
-* Python
-* REST
-* ORM
-* API
-* serializers
-* views
-* authentication
-  type: "reference"
-
----
-
 # Django and Django REST Framework Cheat Sheet
+
+**Category:** Web Development
+**Subcategory:** Python / Django / REST APIs
+**Tags:** Django, Django REST Framework, DRF, Python, REST, ORM, API, serializers, views, authentication
+**Type:** reference
 
 ## 1. Mental Model
 

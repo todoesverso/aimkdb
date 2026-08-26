@@ -37,21 +37,18 @@ Follow these rules for every response:
 
 # 2. Required metadata
 
-Every entry MUST begin with this metadata:
+Every entry MUST begin with this Markdown header:
 
-```yaml
----
-title: "..."
-category: "..."
-subcategory: "..."
-tags:
-  - "..."
-  - "..."
-  - "..."
-type: "concept | how-to | reference | comparison | architecture | troubleshooting | design"
----
+```markdown
+# Title
 
+**Category:** ...
+**Subcategory:** ...
+**Tags:** tag one, tag two, tag three
+**Type:** concept | how-to | reference | comparison | architecture | troubleshooting | design
 ```
+
+Use the entry's canonical title as the H1. Keep the metadata labels exactly as shown, put each label on its own line, and separate tags with commas.
 
 ### Title
 
@@ -128,7 +125,7 @@ The category hierarchy should remain stable across entries.
 
 # 4. Required answer structure
 
-After the YAML metadata, structure the answer as follows.
+After the Markdown header, structure the answer as follows.
 
 ## 1. Short Answer
 

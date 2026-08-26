@@ -1,21 +1,9 @@
----
-
-title: "Linux Virtual Memory"
-category: "Operating Systems"
-subcategory: "Memory"
-tags:
-
-* "virtual memory"
-* "Linux"
-* "paging"
-* "page tables"
-* "MMU"
-* "TLB"
-  type: "concept"
-
----
-
 # Linux Virtual Memory
+
+**Category:** Operating Systems
+**Subcategory:** Memory
+**Tags:** virtual memory, Linux, paging, page tables, MMU, TLB
+**Type:** concept
 
 ## Short Answer
 

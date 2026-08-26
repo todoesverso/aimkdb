@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -eu
+
+readonly readme_path="README.md"
+readonly backup_path="$(mktemp)"
+
+cleanup() {
+    mv "$backup_path" "$readme_path"
+}
+
+trap cleanup EXIT HUP INT TERM
+
+cp "$readme_path" "$backup_path"
+python3 scripts/update_readme.py >/dev/null
+
+if ! cmp -s "$readme_path" "$backup_path"; then
+    echo "README.md is stale. Run: python3 scripts/update_readme.py" >&2
+    exit 1
+fi

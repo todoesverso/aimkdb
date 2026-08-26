@@ -1,22 +1,9 @@
----
-
-title: "C Programming Language Cheat Sheet"
-category: "Programming"
-subcategory: "Languages"
-tags:
-
-* "C"
-* "C programming"
-* "C23"
-* "syntax"
-* "pointers"
-* "memory"
-* "standard library"
-  type: "reference"
-
----
-
 # C Programming Language Cheat Sheet
+
+**Category:** Programming
+**Subcategory:** Languages
+**Tags:** C, C programming, C23, syntax, pointers, memory, standard library
+**Type:** reference
 
 ## 1. Program Structure
 

@@ -1,8 +1,9 @@
 # Linux Networking Stack
 
 **Category:** Operating Systems
-**Subcategory:** Linux Networking / Kernel / Network Programming
+**Subcategory:** Networking
 **Tags:** Linux, networking, kernel, TCP/IP, sockets, Ethernet, IP, TCP, UDP, Netfilter, routing, NIC, packets
+**Type:** concept
 
 ---
 

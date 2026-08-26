@@ -1,8 +1,9 @@
 # Creating Your Own Programming Language in C
 
-**Category:** Programming Languages
-**Subcategory:** Language Implementation / Compilers / Interpreters
+**Category:** Programming
+**Subcategory:** Language Implementation
 **Tags:** C, compiler, interpreter, lexer, parser, AST, programming language design
+**Type:** tutorial
 
 The easiest way to learn how programming languages work is to build a **small interpreted language first**.
 

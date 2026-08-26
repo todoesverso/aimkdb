@@ -1,22 +1,9 @@
----
-
-title: "Python Programming Language Cheat Sheet"
-category: "Programming"
-subcategory: "Languages"
-tags:
-
-* "Python"
-* "Python syntax"
-* "Python 3"
-* "OOP"
-* "asyncio"
-* "typing"
-* "standard library"
-  type: "reference"
-
----
-
 # Python Programming Language Cheat Sheet
+
+**Category:** Programming
+**Subcategory:** Languages
+**Tags:** Python, syntax, standard library, OOP, typing, async, data structures
+**Type:** reference
 
 ## 1. Program Structure
 

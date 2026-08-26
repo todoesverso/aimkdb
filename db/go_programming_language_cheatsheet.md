@@ -1,25 +1,9 @@
----
-
-title: "Go Programming Language Cheat Sheet"
-category: "Programming"
-subcategory: "Languages"
-tags:
-
-* "Go"
-* "Golang"
-* "Go syntax"
-* "concurrency"
-* "goroutines"
-* "channels"
-* "interfaces"
-* "standard library"
-  type: "reference"
-
----
-
 # Go Programming Language Cheat Sheet
 
-## 1. Program Structure
+**Category:** Programming
+**Subcategory:** Languages
+**Tags:** Go, Golang, concurrency, goroutines, channels, syntax, standard library
+**Type:** reference
 
 Minimal Go program:
 

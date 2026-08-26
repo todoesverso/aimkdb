@@ -7,26 +7,20 @@ DB_DIR = Path("db")
 OUTPUT_FILE = Path("README.md")
 
 
-def parse_frontmatter(file_path: Path) -> dict:
-    """Extract scalar key-value pairs from YAML frontmatter."""
-    content = file_path.read_text(encoding="utf-8")
-    fm_match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
-    if not fm_match:
+def parse_metadata(file_path: Path) -> dict:
+    """Extract metadata from the Markdown block below a document title."""
+    lines = file_path.read_text(encoding="utf-8").splitlines()
+    if not lines or not lines[0].startswith("# "):
         return {}
 
-    metadata = {}
-    for line in fm_match.group(1).splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
+    metadata = {"title": lines[0][2:].strip()}
+    for line in lines[1:]:
+        match = re.match(r"^\*\*(Category|Subcategory|Tags|Type):\*\*\s*(.+)$", line)
+        if not match:
+            if metadata.keys() - {"title"}:
+                break
             continue
-
-        if ":" in line:
-            key, value = line.split(":", 1)
-            key = key.strip()
-            value = value.strip().strip("\"'")
-            # Skip nested list blocks/items for scalar index fields
-            if value and not value.startswith("-"):
-                metadata[key] = value
+        metadata[match.group(1).lower()] = match.group(2).strip()
 
     return metadata
 
@@ -43,7 +37,7 @@ def generate_index():
         if file_path.name.lower() == "readme.md":
             continue
 
-        fm = parse_frontmatter(file_path)
+        fm = parse_metadata(file_path)
 
         category = fm.get("category", "Uncategorized")
         subcategory = fm.get("subcategory", "General")
