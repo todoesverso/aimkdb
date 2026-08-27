@@ -32,6 +32,9 @@ Auto-generated index of documents in `db/`.
 - [Go Programming Language Cheat Sheet](db/go_programming_language_cheatsheet.md) `[reference]`
 - [Python Programming Language Cheat Sheet](db/python_programming_language_cheatsheet.md) `[reference]`
 - [Rust Programming Language Cheat Sheet](db/rust_programming_language_cheatsheet.md) `[reference]`
+### Memory
+
+- [Rust Smart Pointers](db/rust_smart_poninters.md) `[concept]`
 
 ## Web Development
 
