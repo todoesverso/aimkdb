@@ -2,6 +2,12 @@
 
 Auto-generated index of documents in `db/`.
 
+## DevOps
+
+### Containers
+
+- [Kubernetes](db/kubernetes.md) `[concept]`
+
 ## Operating Systems
 
 ### Linux
