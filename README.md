@@ -4,6 +4,9 @@ Auto-generated index of documents in `db/`.
 
 ## Operating Systems
 
+### Linux
+
+- [Linux Namespaces and Cgroups](db/linux_namespaces_and_cgroups.md) `[concept]`
 ### Memory
 
 - [Linux Virtual Memory](db/linux_virtual_memory.md) `[concept]`
