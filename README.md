@@ -8,6 +8,12 @@ Auto-generated index of documents in `db/`.
 
 - [Kubernetes](db/kubernetes.md) `[concept]`
 
+## Engineering
+
+### Digital Signal Processing
+
+- [Digital Signal Processing 101](db/dsp_101.md) `[concept]`
+
 ## Operating Systems
 
 ### Linux
@@ -23,6 +29,9 @@ Auto-generated index of documents in `db/`.
 
 ## Programming
 
+### Audio
+
+- [How to Create a Simple LV2 Audio Plugin in C on Linux](db/lv2_plugin.md) `[tutorial]`
 ### Language Implementation
 
 - [Creating Your Own Programming Language in C](db/create_own_programming_language.md) `[tutorial]`
