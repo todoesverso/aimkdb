@@ -23,6 +23,9 @@ Auto-generated index of documents in `db/`.
 
 - [Linux Virtual Memory](db/linux_virtual_memory.md) `[concept]`
 - [Stack vs Heap in C and Rust - Linux and ELF Memory Layout](db/heap_vs_stack_elf_linux.md) `[concept]`
+### Memory Architecture
+
+- [NUMA — Non-Uniform Memory Access](db/numa.md) `[concept]`
 ### Networking
 
 - [Linux Networking Stack](db/linux_networking_stack.md) `[concept]`
